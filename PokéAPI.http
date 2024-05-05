@@ -1,0 +1,15 @@
+
+################################################################
+# Get pokemon list
+# https://pokeapi.co/api/v2/pokemon?limit={{end}}&offset={{start}}
+################################################################
+GET https://pokeapi.co/api/v2/pokemon?limit=100000&offset=0 HTTP/1.1
+Content-Type: application/json
+
+################################################################
+# Get pokemon detail
+# https://pokeapi.co/api/v2/pokemon/{{pokemonName}}
+################################################################
+GET https://pokeapi.co/api/v2/pokemon/ditto HTTP/1.1
+Content-Type: application/json
+
